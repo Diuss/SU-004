@@ -1,0 +1,70 @@
+* {
+    box-sizing: content-box;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .code {
+      font-family: "Courier New", Courier, monospace;
+      font-weight: bold;
+    }
+    
+    .code2 {
+      font-family: "Courier New", Courier, monospace;
+      font-size: 14px;
+    }
+    
+    .padding {
+      padding-top: 20px;
+    }
+    
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+    }
+    
+    .title2 {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    
+    .text {
+      font-size: 24px;
+      text-align: center;
+    }
+    
+    .relative {
+        position: relative;
+        width: 500px;
+        height: 250px;
+        border: 2px solid red;
+        border-radius: 10px;
+        left: 100px;
+    }
+    
+    .static {
+        position: static;
+        width: 600px;
+        height: 250px;
+        border: 2px solid blue;
+        border-radius: 20px;
+    }
+    
+    .parent-relative {
+        position: relative;
+        width: 1000px;
+        height: 200px;
+        border: 2px solid green;
+        
+    }
+     
+    .child-absolute {
+        position: absolute;
+        width: 400px;
+        height: 150px;
+        border: 1px solid red;
+        top: 10px;
+        right: 10px;
+    }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Positioning Homework</title>
+    <link rel="stylesheet" href="index.css">     
+</head>
+<body>
+    <h3>Apply relative position</h3>
+        <div class="relative">
+            <div>
+                <p class="title">First element</p>
+                <p class="text">I am moved left to 50px from my static position</p>
+                <p class="text">My sizes are following:</p>
+                <p class="text code">{ width: 500px; height: 250px; }</p>
+                <p class="text padding">My border-radius:</p>
+                <p class="text code">{ border-radius: 10px; }</p>
+            </div>
+        </div>
+        <div class="static">
+            <div>
+                 <p class="title">Second element</p>
+                 <p class="text">I am moved left to 50px from my static position</p>
+                 <p class="text">My sizes are following:</p>
+                 <p class="text code">{ width: 600px; height: 250px; }</p>
+                 <p class="text padding">My border-radius:</p>
+                 <p class="text code">{ border-radius: 20px; }</p>
+            </div>
+        </div>
+    <h3>Apply absolute position</h3>
+        <div class="absolute">
+            <div class="parent-relative">
+                <p class="title2">I am parent with relative position</p>
+                <p>My sizes are following:</p>
+                <p class="code2">{ width: 1000px; height: 200px; }</p>
+                    <div class="child-absolute">
+                        <p class="title2">I am child element with absolute positioning, top and right 10px</p>
+                        <p>My sizes are following:</p>
+                        <p class="code2">{ width: 400px; height: 150px; }</p>
+                    </div>
+            </div>
+         </div>
+</body>
+</html>
